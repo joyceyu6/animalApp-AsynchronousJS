@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "pass in a data object for the POST request and call mock API with this data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyceyu6/fend-Web-API-s-and-Asynchronous-Applications.git"
+  },
+  "keywords": [
+    "async",
+    "javascript"
+  ],
+  "author": "joyce yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyceyu6/fend-Web-API-s-and-Asynchronous-Applications/issues"
+  },
+  "homepage": "https://github.com/joyceyu6/fend-Web-API-s-and-Asynchronous-Applications#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
